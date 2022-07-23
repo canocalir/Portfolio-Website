@@ -14,7 +14,7 @@
   padding: 30px 16px;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Audiowide", sans-serif;
 }
 
@@ -133,4 +133,26 @@
 
 .breadcrumbs {
   padding: 10px;
+}
+
+
+/* Mobile */
+
+@media screen and (max-width:500px){
+  #logo {
+    font-size: 14px;
+  }
+
+  #main h1 {
+    margin: 90px;
+    font-size: 30px;
+  }
+
+  #main p {
+    font-size: 20px;
+  }
+
+  .nav-container a {
+    font-size: 11px; 
+  }
 }
